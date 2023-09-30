@@ -15,16 +15,6 @@ body
     background-image: url("/img/page-background.jpg");
     background-attachment: fixed;
 }
-main p
-{
-    position: absolute;
-    top: 50%;
-    font-weight: 900;
-    font-size:x-large;
-    color: white;
-    margin-left:45%;
-
-}
 .navbar 
 {
     display: flex;  
