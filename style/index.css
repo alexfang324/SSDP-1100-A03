@@ -15,18 +15,8 @@ body
     background-image: url("/img/page-background.jpg");
     background-attachment: fixed;
     width: 800px;
-    text-align: center;
+
     margin: auto;
-}
-main p
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35%;
-    font-weight: 900;
-    font-size:x-large;
-    color: white;
 }
 .navbar 
 {
@@ -57,12 +47,22 @@ main p
 }
 footer
 {
+    text-align: right;
     position: absolute;
-    top: 95%;
+    width: 70%;
+    bottom: 0;
     font-size:small;
     color: white;
-    /* margin-left:133vh; */
-    margin-left:65%;
-    
+    /* margin-left:133vh; */ 
 }
 /* "Coming Soon" related css below */
+main p
+{
+    position:absolute;
+    text-align: center;
+    top: 45%;
+    width:800px;
+    font-weight: 900;
+    font-size:x-large;
+    color: white;
+}
