@@ -1,5 +1,55 @@
 /* header, body, foot css below */
+body {
+  background-image: url("../img/page-background.jpg");
+  background-size: cover;
+}
 
-
-
+main {
+  max-width: 800px;
+  min-height: 100vh;
+  border: 3px solid rgb(237, 24, 220);
+  margin: 0 auto;
+}
 /* profile related css */
+h2 {
+  color: white;
+}
+
+.featured-profile {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 760px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.featured-section {
+  display: flex;
+  flex-direction: column;
+}
+.featured-profile img {
+  width: 400px;
+  margin-right: 20px;
+}
+
+.profile {
+  display: inline-flex;
+  flex-direction: column;
+  width: 340px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.profile img {
+  width: 300px;
+}
+.profile h3 {
+  color: white;
+}
+
+.profile img,
+h3 {
+  padding: 18px 18px;
+}
