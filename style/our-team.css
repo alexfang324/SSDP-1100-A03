@@ -14,51 +14,56 @@ body
     background-size:cover;
     background-image: url("/img/page-background.jpg");
     background-attachment: fixed;
+    width: 800px;
+    text-align: center;
+    margin: auto;
 }
-
+main p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+    font-weight: 900;
+    font-size:x-large;
+    color: white;
+}
 .navbar 
 {
     display: flex;  
     justify-content: space-between;
     align-items: center;
-    padding-left:50vh;
-    padding-right:50vh;
     color:white;
 }
-
-
 .logo
 {
     width:100px;
     height: 100px;
     display: flex;
 }
-
 .navbar a
 {
     margin-right: 10px;
     padding: 10px 5px;
 }
-
 .current-page
 {    
     color: black;
     background-color: whitesmoke;
 }
-
 .notcurrent-page
 {
     color:whitesmoke;
 }
-
 footer
 {
     position: absolute;
-    top: 96%;
+    top: 95%;
     font-size:small;
     color: white;
     /* margin-left:133vh; */
-    margin-left:85%;
+    margin-left:65%;
+    
 }
 /* profile related css */
 
