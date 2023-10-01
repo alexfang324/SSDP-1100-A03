@@ -1,10 +1,9 @@
 /* header, body, foot css below */
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body
@@ -57,4 +56,73 @@ footer
 }
 
 /* profile related css */
+h2 {
+  color: white;
+}
 
+.featured-profile {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  padding:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+  word-wrap: break-word ;
+}
+.featured-profile img {
+  width: 60%;
+}
+
+.featured-profile h3::first-letter {
+  font-size: 1.2em;
+}
+
+.profile-row {
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+.profile h3::first-letter {
+  font-size: 1.2em;
+}
+.profile {
+  display: inline-flex;
+  flex-direction: column;
+  width: 380px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:20px;
+}
+
+.profile img {
+  box-sizing: border-box;
+  width:100%;
+  padding-bottom:10px;
+}
+
+.profile h3 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.left-profile{
+margin-right: 18px;
+}
+
+.right-profile{
+    margin-left: 18px;
+}
