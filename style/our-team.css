@@ -7,7 +7,7 @@ body {
 main {
   max-width: 800px;
   min-height: 100vh;
-  border: 3px solid rgb(237, 24, 220);
+  /* border: 3px solid rgb(237, 24, 220); */
   margin: 0 auto;
 }
 /* profile related css */
@@ -33,6 +33,12 @@ h2 {
   margin-right: 20px;
 }
 
+.featured-profile h3::first-letter {
+  font-size: 1.2em;
+}
+.profile h3::first-letter {
+  font-size: 1.2em;
+}
 .profile {
   display: inline-flex;
   flex-direction: column;
