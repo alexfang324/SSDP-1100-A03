@@ -23,12 +23,41 @@ body {
   color: white;
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+
+.navbar a {
+  margin-right: 10px;
+  padding: 10px 5px;
+}
+
+.current-page {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.notcurrent-page {
+  color: whitesmoke;
+}
 main {
   max-width: 800px;
   min-height: 100vh;
   /* border: 3px solid rgb(237, 24, 220); */
   margin: 0 auto;
 }
+
+footer {
+  position: absolute;
+  top: 96%;
+  font-size: small;
+  color: white;
+  /* margin-left:133vh; */
+  margin-left: 85%;
+}
+
 /* profile related css */
 h2 {
   color: white;
@@ -78,32 +107,3 @@ h2 {
 h3 {
   padding: 18px 18px;
 }
-.logo {
-  width: 100px;
-  height: 100px;
-  display: flex;
-}
-
-.navbar a {
-  margin-right: 10px;
-  padding: 10px 5px;
-}
-
-.current-page {
-  color: black;
-  background-color: whitesmoke;
-}
-
-.notcurrent-page {
-  color: whitesmoke;
-}
-
-footer {
-  position: absolute;
-  top: 96%;
-  font-size: small;
-  color: white;
-  /* margin-left:133vh; */
-  margin-left: 85%;
-}
-/* profile related css */
