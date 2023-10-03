@@ -57,6 +57,8 @@ footer
 
 /* chuan added*/
 
+/*test the git push*/
+
 form{
     height: 400px;
     width: 450px;
@@ -84,6 +86,7 @@ form h3{
     text-align: center;
     color: #e5bd8c;
     letter-spacing: 1px;
+    
 }
 
 label{
