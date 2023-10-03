@@ -51,6 +51,7 @@ footer {
 /* profile related css */
 h1 {
   color: white;
+  margin-bottom: 20px;
 }
 
 .featured-profile {
@@ -70,11 +71,13 @@ h1 {
   margin-right: 20px;
 }
 
-.featured-profile h3::first-letter {
+.featured-profile h2::first-letter {
   font-size: 1.2em;
 }
-
-.profile h3::first-letter {
+.featured-profile h2 {
+  margin-bottom: 10px;
+}
+.profile h2::first-letter {
   font-size: 1.2em;
 }
 
