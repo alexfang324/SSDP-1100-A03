@@ -61,13 +61,12 @@ form{
     height: 400px;
     width: 450px;
     background-color: transparent;
-    position: absolute;
-    align-content: middle;
     border-radius: 10px;
     backdrop-filter: brightness(0.8);
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 40px 35px;
+    position: absolute;
     top:30%;
     transform: translateX(-50%); 
     left:50%;
