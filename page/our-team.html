@@ -1,96 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/our-team.css" />
+    <title>Team AJCYA - Our Team</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../style/our-team.css" />
-  <title>Team AJCYA - Our Team</title>
-</head>
-
-<body>
-  <header>
-    <div class="navbar">
-      <img src="../img/logo.png" alt="LOGO" class="logo" />
-      <nav>
-        <a class="notcurrent-page" href="./index.html">HOME</a>
-        <a class="current-page" href="./our-team.html">OUR TEAM</a>
-        <a class="notcurrent-page" href="./login.html">LOGIN</a>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <!-- build your profile here, Amanda will expect the featured profile tile having an outer div with class
+  <body>
+    <header>
+      <div class="navbar">
+        <img src="../img/logo.png" alt="LOGO" class="logo" />
+        <nav>
+          <a class="notcurrent-page" href="./index.html">HOME</a>
+          <a class="current-page" href="./our-team.html">OUR TEAM</a>
+          <a class="notcurrent-page" href="./login.html">LOGIN</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- build your profile here, Amanda will expect the featured profile tile having an outer div with class
         name "featured-profile" and a regular profile tile having an outer div with class name "profile".
         She will use these class name in her Javascript function. Therefore, DO NOT RENAME these class name -->
-    <h2>Our Team</h2>
-    <article class="person featured-profile">
-      <img src="../img/profile-image.png" alt="Profile Image" />
-      <section>
-        <h3>Jashan Sran</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad beatae
-          quisquam sit officia obcaecati ut rerum quibusdam inventore nisi
-          molestiae voluptate harum assumenda dolore, ipsum et cumque quasi
-          ducimus fugiat?
-        </p>
-      </section>
-    </article>
+      <h1>Our Team</h1>
+      <table>
+        <tbody>
+          <tr>
+            <td colspan="2" class="featured-profile">
+              <article>
+                <img src="../img/profile-image.png" alt="Profile Image" />
 
-    <div class="profile-row">
-      <article class="person profile left-profile">
-        <img src="../img/profile-image.png" alt="Profile Image" />
-        <section>
-          <h3>Profile 2</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad beatae
-            quisquam sit officia obcaecati ut rerum quibusdam inventore nisi
-            molestiae voluptate harum assumenda dolore, ipsum et cumque quasi
-            ducimus fugiat?
-          </p>
-        </section>
-      </article>
-      <article class="person profile right-profile">
-        <img src="../img/profile-image.png" alt="Profile Image" />
-        <section>
-          <h3>Profile 3</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad beatae
-            quisquam sit officia obcaecati ut rerum quibusdam inventore nisi
-            molestiae voluptate harum assumenda dolore, ipsum et cumque quasi
-            ducimus fugiat?
-          </p>
-        </section>
-      </article>
-    </div>
-    <div class="profile-row">
-      <article class="person profile left-profile">
-        <img src="../img/profile-image.png" alt="Profile Image" />
-        <section>
-          <h3>Profile 4</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad beatae
-            quisquam sit officia obcaecati ut rerum quibusdam inventore nisi
-            molestiae voluptate harum assumenda dolore, ipsum et cumque quasi
-            ducimus fugiat?
-          </p>
-        </section>
-      </article>
-      <article class="person profile right-profile">
-        <img src="../img/profile-image.png" alt="Profile Image" />
-        <section>
-          <h3>Profile 5</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad beatae
-            quisquam sit officia obcaecati ut rerum quibusdam inventore nisi
-            molestiae voluptate harum assumenda dolore, ipsum et cumque quasi
-            ducimus fugiat?
-          </p>
-        </section>
-    </div>
-  </main>
-  <footer></footer>
-  <script src="../script/random-order.js"></script>
-</body>
+                <h2>Jashan Sran</h2>
 
+                <p>
+                  JASHAN PARAGRAPH Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Ad beatae quisquam sit officia obcaecati ut
+                  rerum quibusdam inventore nisi molestiae voluptate harum
+                  assumenda dolore, ipsum et cumque quasi ducimus fugiat?
+                </p>
+              </article>
+            </td>
+          </tr>
+
+          <tr class="profile-row">
+            <td>
+              <article class="profile left-profile">
+                <img src="../img/alex-fang.jpg" alt="Profile Image" />
+
+                <h2>Alex</h2>
+                <p>
+                I was a academic researcher in physics, a self-employed businessman, and now a software
+                developer in training. I've developed useful programs and apps during my previous experience 
+                that sparkled my interest in pursuing a software developer career. My goal is to become a 
+                well-rounded full stack developer who is able to attack a problem from all angles.
+                </p>
+              </article>
+            </td>
+
+            <td>
+              <article class="profile right-profile">
+                <img src="../img/profile-image.png" alt="Profile Image" />
+                <h2>Amanda</h2>
+                <p>
+                  AMANDA PARAGRAPH Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Ad beatae quisquam sit officia obcaecati ut
+                  rerum quibusdam inventore nisi molestiae voluptate harum
+                  assumenda dolore, ipsum et cumque quasi ducimus fugiat?
+                </p>
+              </article>
+            </td>
+          </tr>
+
+          <tr class="profile-row">
+            <td>
+              <article class="profile left-profile">
+                <img src="../img/profile-image.png" alt="Profile Image" />
+                <h2>Yuri</h2>
+                <p>
+                  YURI PARAGRAPH Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Ad beatae quisquam sit officia obcaecati ut
+                  rerum quibusdam inventore nisi molestiae voluptate harum
+                  assumenda dolore, ipsum et cumque quasi ducimus fugiat?
+                </p>
+              </article>
+            </td>
+
+            <td class="profile-row">
+              <article class="profile right-profile">
+                <img src="../img/profile-image.png" alt="Profile Image" />
+                <h2>Chuan</h2>
+                <p>
+                  CHUAN PARAGRAPH Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Ad beatae quisquam sit officia obcaecati ut
+                  rerum quibusdam inventore nisi molestiae voluptate harum
+                  assumenda dolore, ipsum et cumque quasi ducimus fugiat?
+                </p>
+              </article>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>&copy;2023 Team AJCYA</p>
+    </footer>
+    <script src="../script/random-order.js"></script>
+  </body>
 </html>
