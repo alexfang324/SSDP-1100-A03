@@ -19,23 +19,23 @@ body
     margin: auto;
     min-height:100vh;
 }
-.navbar 
+.navbar
 {
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
     color:white;
+    text-align: right;
 }
 .logo
 {
     width:100px;
     height: 100px;
-    display: flex;
+    float:left;
 }
 .navbar a
 {
+    margin-top:20px;
     margin-right: 10px;
     padding: 10px 5px;
+    float:right;
 }
 .current-page
 {    
