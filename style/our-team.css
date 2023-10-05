@@ -71,13 +71,15 @@ h2 {
   margin-bottom: 20px;
   display: flex;
 }
-.featured-section {
+
+.featured-profile section {
   display: flex;
   flex-direction: column;
   padding: 20px;
   text-align: left;
   word-wrap: break-word ;
 }
+
 .featured-profile img {
   width: 60%;
 }
@@ -125,4 +127,8 @@ margin-right: 18px;
 
 .right-profile{
     margin-left: 18px;
+}
+
+.profile p{
+  display: none;
 }
