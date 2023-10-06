@@ -4,24 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style/login.css">
-  <title>Team AJCYA - Login</title>
+  <link rel="stylesheet" href="./style/login.css">
+  <title>A03 - Team AJCYA - Login</title>
 </head>
 
 <body>
   <header>
-    <div class="navbar">
-      <img src="../img/logo.png" alt="LOGO" class="logo">
-      <nav>
-        <a class = "current-page" href="./login.html">LOGIN</a>       
-        <a class = "notcurrent-page" href="./our-team.html">OUR TEAM</a>
-        <a class = "notcurrent-page" href="./index.html">HOME</a>
-      </nav>
-    </div>
+    <img class="logo" src="./img/logo.png" />
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./our-team.html">Our Team</a></li>
+        <li><a href="./login.html">Login</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
 <!-- build your login form here -->
-<form>
+<form action="/login" method="post">
   <h3>Login Here</h3>
 
   <label for="username">Username</label>
@@ -33,7 +33,6 @@
   <button>Login</button>
 
 </form>
-<!----end--->
   </main>
   <footer>
     <p>&copy;2023 Team AJCYA</p>
