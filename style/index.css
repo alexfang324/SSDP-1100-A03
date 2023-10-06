@@ -17,37 +17,57 @@
     margin: auto;
     min-height: 100vh;
   }
-  .navbar {
-    text-align:right;
-    color: white;
-  }
+
   .logo {
-    width: 100px;
-    height: 100px;
-    float:left;
+    width:100px;
   }
-  .navbar a {
-    margin-top:4%;
-    margin-right: 10px;
-    padding: 10px 5px;
+  
+  nav {
+    width:100%;
+    height:100%;
+    display:inline;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 30px  0px;
+    padding: 0;
     float:right;
+    vertical-align: middle;
   }
-  .current-page {
-    color: black;
-    background-color: whitesmoke;
+  
+  nav ul li {
+    display: inline;
+    line-height: 2rem;
   }
-  .notcurrent-page {
-    color: whitesmoke;
+  
+  nav ul li a {
+    color: 
+  white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px;
   }
+  
+  nav ul li a.active,
+  nav ul li a:hover {
+    color: 
+  #333;
+    background-color: 
+  white;
+  }
+  
+
   footer {
     text-align: center;
     position: absolute;
-    width: 100%;
-    bottom: 0;
-    font-size: small;
-    color: white;
-  }
-  
+    width:100%;
+    bottom:0;
+    color:white;
+    transform: translateX(-50%); 
+    left:50%;
+}
+
   /* "Coming Soon" related css below */
   main > p {
     position: absolute;
